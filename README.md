@@ -1,4 +1,4 @@
-<h1 align="center">RN-TourGuide</h1>
+<h1 align="center">RN-TourGuide Modified</h1>
 
 <p align="center">
   A flexible <strong>tourguide</strong> for your react native app!
@@ -17,13 +17,13 @@
 
 <div align="center">
   <p align="center">
-    <a href="https://www.npmjs.com/package/rn-tourguide">
+    <a href="https://www.npmjs.com/package/rn-tourguide-modified">
       <img alt="npm downloads" src="https://img.shields.io/npm/dm/rn-tourguide.svg"/>
     </a>
-    <a href="https://www.npmjs.com/package/rn-tourguide">
+    <a href="https://www.npmjs.com/package/rn-tourguide-modified">
       <img src="https://img.shields.io/npm/v/rn-tourguide.svg" alt="NPM Version" />
     </a>
-    <a href="http://reactnative.gallery/xcarpentier/rn-tourguide">
+    <a href="http://reactnative.gallery/xcarpentier/rn-tourguide-modified">
       <img src="https://img.shields.io/badge/reactnative.gallery-%F0%9F%8E%AC-green.svg"/></a>
     </a>
     <a href="#hire-an-expert">
@@ -35,7 +35,7 @@
 ## Installation
 
 ```
-yarn add rn-tourguide
+yarn add rn-tourguide-modified
 ```
 
 ```
@@ -57,7 +57,7 @@ import {
   TourGuideZone, // Main wrapper of highlight component
   TourGuideZoneByPosition, // Component to use mask on overlay (ie, position absolute)
   useTourGuideController, // hook to start, etc.
-} from 'rn-tourguide'
+} from 'rn-tourguide-modified'
 
 // Add <TourGuideProvider/> at the root of you app!
 function App() {
