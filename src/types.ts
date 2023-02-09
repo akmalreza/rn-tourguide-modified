@@ -17,6 +17,7 @@ export interface IStep {
   keepTooltipPosition?: boolean
   tooltipBottomOffset?: number
   borderRadiusObject?: BorderRadiusObject
+  header?: string
 }
 export interface StepObject {
   [key: string]: IStep

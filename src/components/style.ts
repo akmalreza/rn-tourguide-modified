@@ -41,6 +41,9 @@ export default StyleSheet.create<IStyle>({
     backgroundColor: 'transparent',
     zIndex: Z_INDEX - 2,
   },
+  tooltipHeader: {
+    fontWeight: 'bold',
+  },
   tooltipText: {
     textAlign: 'center',
   },

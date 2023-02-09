@@ -36,6 +36,11 @@ export const Tooltip = ({
     }}
   >
     <View style={styles.tooltipContainer}>
+      <Text testID='stepTitle' style={styles.tooltipHeader}>
+        {currentStep && currentStep.header}
+      </Text>
+    </View>
+    <View style={styles.tooltipContainer}>
       <Text testID='stepDescription' style={styles.tooltipText}>
         {currentStep && currentStep.text}
       </Text>
